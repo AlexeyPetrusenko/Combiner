@@ -59,7 +59,7 @@ public class CombinerImpl<T> implements Combiner<T> {
     }
 
     /**
-     * Fills 'priorityMap' and provide synchronization.
+     * Fills 'priorityMap' and provides synchronization.
      */
     private void resetPriorities() {
         globalLock.lock();
