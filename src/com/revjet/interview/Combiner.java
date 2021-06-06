@@ -22,6 +22,7 @@ import java.util.concurrent.TimeUnit;
  * <li>Combiner and CombinerInput must be thread-safe</li>
  * <li>Combiner may or may not buffer input elements internally</li>
  * <li>Combiner may or may not start internal threads</li>
+ *
  * </ul>
  *
  * @param <T> the type of elements in this combiner
